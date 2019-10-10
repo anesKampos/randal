@@ -9,6 +9,7 @@
 	tools:showIn="@layout/activity_main"
 	android:minWidth="25px"
 	android:minHeight="25px">
+
 	<TextView
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
@@ -16,17 +17,101 @@
 		android:text="Bienvenido a Randal"
 		android:id="@+id/txtTitle"
 		android:layout_marginTop="0.0dp"
-		android:layout_marginBottom="0.0dp" /> 
-    <Button 
-        android:id = "@+id/btnLogin" 
-        android:layout_width = "fill_parent" 
-        android:layout_height = "wrap_content" 
-        android:layout_below="@id/txtTitle"
-    android:text = "Inicia Sesion" />
+		android:layout_marginBottom="0.0dp"
+		android:layout_alignParentTop="true"
+		android:paddingTop="70dp"
+		android:textStyle="bold"
+		android:textSize="22dp" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Ingresa tus datos para iniciar sesión."
+		android:id="@+id/txtSubtitle"
+		android:paddingTop="20dp"
+		android:layout_below="@id/txtTitle"
+		android:textSize="16dp"
+		android:layout_centerInParent="true" />
+
+	<EditText
+		android:inputType="textEmailAddress"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/txtEmail"
+		android:layout_below="@id/txtSubtitle"
+		android:paddingTop="30dp"/>
+
+	<EditText
+		android:inputType="textPassword"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/txtEmail"
+		android:id="@+id/txtPassword"
+		android:paddingTop="30dp" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerInParent="true"
+		android:text="¿Olvidaste tu contraseña?"
+		android:id="@+id/txtForgotPassword"
+		android:layout_below="@id/txtPassword"
+		android:textSize="16dp"
+		android:layout_alignParentRight="true"
+		android:paddingTop="20dp"
+		android:paddingRight="10dp"
+		android:paddingBottom="20dp"
+		android:textStyle="bold" />
+
+	<Button
+		android:id = "@+id/btnLogin"
+		android:layout_width = "fill_parent"
+		android:layout_height = "wrap_content"
+		android:layout_below="@id/txtForgotPassword"
+		android:text = "Inicia Sesión"
+		android:textColor="#ffffffff"
+		android:background="#ffee4c10"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="O crea una cuenta usando FaceBook"
+		android:id="@+id/txtFacebookAccount"
+		android:layout_below="@id/btnLogin"
+		android:textSize="16dp"
+		android:layout_centerInParent="true"
+		android:paddingTop="10dp"
+		android:paddingBottom="10dp" />
+
 	<Button
 		android:id = "@+id/btnSingUp"
 		android:layout_width = "fill_parent"
 		android:layout_height = "wrap_content"
-        android:layout_below="@id/btnLogin"
-		android:text = "Registrate" />
+		android:layout_below="@id/txtFacebookAccount"
+		android:text="Inicia sesión con FB" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="¿No tienes cuenta?"
+		android:id="@+id/txtPreSignUp"
+		android:layout_below="@id/btnSingUp"
+		android:textSize="16dp"
+		android:paddingTop="10dp"
+		android:paddingBottom="10dp"
+		android:layout_centerInParent="true"  />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Regístrate"
+		android:id="@+id/txtSignUp"
+		android:textSize="16dp"
+		android:paddingTop="10dp"
+		android:paddingBottom="10dp"
+		android:layout_toRightOf="@id/txtPreSignUp"
+		android:layout_alignBaseline="@id/txtPreSignUp"
+		android:paddingLeft="10dp"
+		android:textColor="#ffab1d1d"
+		android:textStyle="bold" />
 </RelativeLayout>

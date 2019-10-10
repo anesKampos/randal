@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{89A72931-C88B-4EED-AD73-6C825421860A}|Default">
+  <MonoDevelop.Ide.ItemProperties.Randal AndroidDesignerPreferredTheme="AppTheme" AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.ZL33H27VV7" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Randal/MainActivity.cs">
+    <Files>
+      <File FileName="Randal/MainActivity.cs" Line="27" Column="3" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Randal_Front" expanded="True">
+            <Node name="Randal" expanded="True">
+              <Node name="Resources" expanded="True">
+                <Node name="layout" expanded="True" />
+              </Node>
+              <Node name="MainActivity.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
